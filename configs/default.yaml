@@ -1,0 +1,16 @@
+image_size: [224, 224]
+channels: 3
+batch_size: 32
+epochs: 20
+fine_tune_epochs: 10
+learning_rate: 0.001
+fine_tune_learning_rate: 0.00001
+train_split: 0.70
+validation_split: 0.15
+test_split: 0.15
+random_state: 42
+exclude_classes:
+  - ig
+  - neutrophil
+model_dir: models
+report_dir: reports
