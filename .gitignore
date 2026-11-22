@@ -17,3 +17,14 @@ reports/figures/*
 *.keras
 *.log
 .env
+
+# added 2026-11-22: deps, builds and secrets
+node_modules/
+dist/
+.next/
+*.egg-info/
+venv/
+.env.*
+!.env.example
+*.pem
+*.key
